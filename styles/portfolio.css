@@ -1,0 +1,286 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+     margin: 0 auto;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 150px;
+}
+.nav > ul{
+    display:flex;
+    align-items: center;
+    
+}
+.nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+.nav li> a{
+    text-decoration: none;
+}
+.nav-title{
+    color:#181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+span{
+    color:#FD6E0A;
+}
+.menu{
+    color:#474747;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.btn-primary{
+    border: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,  left bottom;
+   
+}
+.baner{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 0px 150px;
+    justify-content: space-between;
+}
+.baner-items{
+    max-width: 600px;
+}
+.baner-intro{
+    color:#474747;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.baner-title{
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.baner-description{
+    color:#757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.baner-pic{
+    width: 550px;
+}
+
+
+#btn{
+    margin-right: 50px;
+}
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    max-width: 1000px;
+    margin: 130px auto;
+    padding: 130px 160px;
+    /* text-align: center; */
+    
+    justify-content: center;
+}
+.comn-text{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-me{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* max-width: 900px; */
+    
+
+}
+.about-title{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+.about-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 0px;
+}
+.about-info{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.pera{
+    color: #757575;
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+   
+    
+}
+
+.others{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1000px;
+    margin: 130px auto;
+}
+.skills{
+    width: 260px;
+    height: 360px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-top: 50px;
+}
+.skill-menu{
+    display: flex;
+    gap: 25px;
+    
+}
+.icon{
+    margin: 30px 195px 20px 30px;
+}
+.skill-description{
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px
+   
+}
+.skill-title{
+    color:#181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.degree{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.institute{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.more-about{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.resume-summary{
+    max-width: 500px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    gap: 70px;
+}
+#btn2{
+    margin: 70px 150px; 
+}
+.footer{
+    background: #FFF8F3;
+    display: flex;
+    padding: 130px 230px;
+    gap: 120px;
+    justify-content: space-between;
+}
+.foot-text{
+    color:  #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px
+}
+.foot-left{
+    max-width: 550px;
+    align-items: left;
+    text-align: left;
+}
+#foot-title{
+    text-align: left;
+}
+.logo{
+    margin-right: 24px;
+}
+.foot-right input{
+    border-radius: 5px;
+    background: #FFF;
+    
+   
+    border: 0px;
+    margin-bottom: 10px;
+    padding: 18px 350px 18px 30px;
+}
+textarea{
+    
+    border: 0px;
+    padding: 18px 275px 18px 30px;
+}
+.foot-right{
+    max-width: 500px;
+    align-items: left;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
